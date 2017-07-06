@@ -133,6 +133,13 @@
   <ItemGroup>
     <Text Include="ReadMe.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="text.h" />
+    <ClInclude Include="trim_funcs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="text.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
